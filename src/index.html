@@ -1,22 +1,48 @@
 ---
 layout: default
-title: Neat Starter
+title: RL Stats
 path: home
 ---
 
 <div class="container mx-auto lg:h-screen flex flex-col justify-center items-center">
   <h1>
-    Welcome to
+    🚀 
     <strong class="bg-clip-text text-transparent bg-gradient-to-r from-blue-500 to-purple-500">
       {{title}}
     </strong>
+    🏎 
   </h1>
 
   <p>
-    <abbr title="netlify cms, eleventy, alpine js & tailwind css">NEAT</abbr>
-    Starter Template. Get Started by editing.
-    <code class="bg-gray-100 text-blue-800 p-1">/index.njk</code>
+    The story of why Troy sucks... in data.
   </p>
 
+    <style>
+      table,
+      th,
+      td {
+        margin-top: 20px;
+        padding: 10px;
+        border: 1px solid black;
+        border-collapse: collapse;
+      }
+    </style>
+  </head>
+  <body>
+    <table>
+      <tr>
+        <th>Player</th>
+        <th>Wins</th>
+      </tr>
+      <tr>
+        <td>Anthony</td>
+        <td>0</td>
+      </tr>
+      <tr>
+        <td>Troy</td>
+        <td>1</td>
+      </tr>
+    </table>
+  
   {% include "./_includes/partials/content.html" %}
 </div>
